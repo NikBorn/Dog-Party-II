@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+h3 {
+  margin: 0px;
+  text-align: center;
+  color: #3F8DA7;
+}
+
+h4 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+p {
+  text-align: center;
+}
+
+.top-txt{
+  background-color: #FFFFFF;
+  border: 2px solid #3F8DA7;
+  width: 150px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 2px;
+}
+
+li {
+  display: inline-block;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+li:hover {
+  color: #3F8DA7;
+}
+
+
+
+header {
+  background-color: #92E0E5;
+  height: 40px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+
+
+.dog-icon {
+  height: 30px;
+  width: 30px;
+  background-image: url(images/dog-icon.svg);
+}
+
+.main-top {
+  text-align: center;
+  background-image: url(images/park.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.top-dog {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-image: url(images/dog1-sq.jpg);
+  background-position: center;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three-dogs {
+  display: inline-block;
+  width: 32%;
+  /*border: 2px solid magenta;*/
+  height: auto;
+  min-height: 400px;
+  vertical-align: top;
+}
+
+.dog-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three-link {
+  border: 3px solid #3F8DA7;
+  max-width: 130px;
+  height: 30px;
+  text-align: center;
+  padding-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facts-link {
+  max-width: 120px;
+}
+
+.how-img {
+  background-image: url(images/dog2-sq.jpg);
+}
+
+.what-img {
+  background-image: url(images/dog3-sq.jpg);
+}
+
+.facts-img {
+  background-image: url(images/dog4-sq.jpg);
+
+}
+
+.content {
+  text-align: center;
+  vertical-align: bottom;
+  min-height: 420px;
+}
+
+footer {
+  background-color: #3F8DA7;
+  color: #FFFFFF;
+  padding: 15px 0px;
+}
+
+footer h4,
+footer p {
+  margin: 0px;
+}
+
+.social-links {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 25px 10px;
+}
+
+.facebook {
+  background-image:  url(images/facebook.svg);
+}
+
+.twitter {
+  background-image: url(images/twitter.svg);
+}
+
+.instagram {
+  background-image: url(images/instagram.svg);
+}
+
+.linkedin {
+  background-image: url(images/linkedin.svg);
+}
